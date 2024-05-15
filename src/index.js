@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App/App";
-import Parent from "./Parent/Parent";
+// import Parent from "./Parent/Parent";
 import reportWebVitals from "./reportWebVitals";
+import InfiniteScroll from "./InfiniteScroll/InfiniteScroll";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Parent />
+    {/* <Parent /> */}
+    <InfiniteScroll />
   </React.StrictMode>
 );
 
