@@ -1,4 +1,4 @@
-export const imageUrls = [
+export const imageIndex = [
   { id: 0 },
   { id: 1 },
   { id: 2 },

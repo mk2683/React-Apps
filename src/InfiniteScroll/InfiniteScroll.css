@@ -38,6 +38,7 @@
 } */
 
 /* ImageGrid.css */
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 5 columns */
@@ -56,3 +57,52 @@
   height: 100%;
   object-fit: cover; /* Scale images to cover the container */
 }
+
+/* new */
+
+html {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.Grid {
+  border: 1px solid #d9dddd;
+}
+
+.GridItemEven,
+.GridItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.GridItemEven {
+  background-color: #f8f8f0;
+}
+
+.image {
+  object-fit: cover; /* Scale images to cover the container */
+  position: absolute;
+  z-index: 2;
+}
+
+.image-id {
+  z-index: 1;
+}
+
+/* FixedSizeGrid.css */
+
+.grid-container {
+  border: 1px solid #ccc;
+}
+
+/* .grid-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+} */
