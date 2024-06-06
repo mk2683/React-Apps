@@ -1,0 +1,10 @@
+.stepper-button {
+  padding: 5px;
+  background-color: antiquewhite;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.stepper-button-active {
+  background-color: rgb(105, 105, 167);
+}
